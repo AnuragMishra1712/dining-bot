@@ -105,7 +105,7 @@ def receive_message():
         #     restaurant_phone = 'NA'
         address = str(item_db['address'])
 
-        Message_to_send = 'This is an random restauramt suggestion for you:\n' + 'Restaurant Name: ' + item_db[
+        Message_to_send = 'This is a restaurant suggestion for you:\n' + 'Restaurant Name: ' + item_db[
             'name'] + '\n' + 'Address: ' + address
         print(Message_to_send)
         return Message_to_send, customer_phone, customer_email
